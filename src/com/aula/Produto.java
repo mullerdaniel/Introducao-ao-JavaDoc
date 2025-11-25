@@ -26,4 +26,14 @@ public class Produto {
         }
         return preco - (preco * (percentual / 100));
     }
+
+    /**
+     * Calcular imposto sobre o preço do produto
+     * @apiNote Esse método considera imposto federais fixos
+     * @implSpec Deve ser usado apenas apra cálculo estimado
+     * @return valor do imposto calculado
+     * */
+    public double calcularImposto() {
+        return preco * 0.25;
+    }
 }

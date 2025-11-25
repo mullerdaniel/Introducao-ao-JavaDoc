@@ -3,6 +3,7 @@
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/Salvar_JavaDoc" />
     <option name="OPTION_SCOPE" value="package" />
+    <option name="OTHER_OPTIONS" value="-encoding UTF-8 -tag &quot;apiNote:a:API Note:&quot; -tag &quot;implSpec:a:Implementation Spec:&quot; -Xdoclint:none" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
