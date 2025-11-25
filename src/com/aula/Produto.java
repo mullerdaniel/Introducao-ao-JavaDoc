@@ -38,4 +38,11 @@ public class Produto {
     public double calcularImposto() {
         return preco * 0.25;
     }
+
+    /**
+     * @deprecated Use aplicarDesconto(double) no lugar
+     * */
+    public double descontoAntigo() {
+        return preco * 0.09;
+    }
 }
