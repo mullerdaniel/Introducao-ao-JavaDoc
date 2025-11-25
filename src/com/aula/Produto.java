@@ -2,6 +2,8 @@ package com.aula;
 
 /**
  * Repersenta um produto para compra.
+ * @author Daniel Müller
+ * @version 1.0
  * */
 
 public class Produto {
